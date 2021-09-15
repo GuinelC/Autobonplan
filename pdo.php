@@ -1,13 +1,13 @@
 <?php
-   define("PDO_HOST", "localhost"); // le SERVEUR
+   // define("PDO_HOST", "sql112.epizy.com");
+   // define("PDO_DBBASE", "epiz_29739588_autobonplan");
+   // define("PDO_USER", "epiz_29739588");
+   // define("PDO_PW", "QdADoVwcIt");
 
-//    define("PDO_DBBASE", "nwdr0168_dev_charlie"); // nom de ma base de donner ! ! 
-//    define("PDO_USER", "nwdr0168_charlie");
-//    define("PDO_PW", "vNPH2JUmKC"); // MDP mac
-
-   define("PDO_DBBASE", "autobonplan"); // nom de ma base de données
-   define("PDO_USER", "root"); // MDP
-   define("PDO_PW", "root"); // MDP 
+   define("PDO_HOST", "sql112.epizy.com");
+   define("PDO_DBBASE", "epiz_29739588_autobonplan");
+   define("PDO_USER", "epiz_29739588");
+   define("PDO_PW", "QdADoVwcIt");
  
  try{
    $connection = new PDO(
